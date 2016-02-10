@@ -1,0 +1,27 @@
+{"source":"contract eric { int val; function set(int _val) { val = _val; } function add(int _a) { val = val + _a; } function get() returns(int) {return val; } }","language":"Solidity","languageVersion":"0.2.1","compilerVersion":"0.2.1","compilerOptions":"--bin --abi --userdoc --devdoc --add-std --optimize -o /tmp/solc633413301","abiDefinition":[{"constant":false,"inputs":[],"name":"get","outputs":[{"name":"","type":"int256"}],"type":"function"},{"constant":false,"inputs":[{"name":"_a","type":"int256"}],"name":"add","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_val","type":"int256"}],"name":"set","outputs":[],"type":"function"}],"userDoc":{"methods":{}},"developerDoc":{"methods":{}}}
+
+> loadScript("scripts/eric.js")
+contract name: eric 	
+contractAddress: 0x8737685dbe176ecf1ae365de40e0153143b69ea8
+
+> compiled
+{
+  eric: {
+    code: "0x606060405260538060106000396000f3606060405260e060020a60003504636d4ce63c8114602e57806387db03b714603b578063e5c19b2d146049575b005b6000546060908152602090f35b60008054600435019055602c565b600435600055602c56",
+    info: {
+      abiDefinition: [{...}, {...}, {...}],
+      compilerOptions: "--bin --abi --userdoc --devdoc --add-std --optimize -o /tmp/solc633413301",
+      compilerVersion: "0.2.1",
+      developerDoc: {
+        methods: {}
+      },
+      language: "Solidity",
+      languageVersion: "0.2.1",
+      source: "contract eric { int val; function set(int _val) { val = _val; } function add(int _a) { val = val + _a; } function get() returns(int) {return val; } }",
+      userDoc: {
+        methods: {}
+      }
+    }
+  }
+}
+

@@ -1,0 +1,17 @@
+{"source":"contract test { function multiply(uint a) returns(uint d) { return a * 7; } }"
+,"language":"Solidity"
+,"languageVersion":"0.2.1"
+,"compilerVersion":"0.2.1"
+,"compilerOptions":"--bin --abi --userdoc --devdoc --add-std --optimize -o /tmp/solc121734220"
+,"abiDefinition":
+  [
+   {"constant":false
+   ,"inputs":[{"name":"a","type":"uint256"}]
+   ,"name":"multiply"
+   ,"outputs":[{"name":"d","type":"uint256"}]
+   ,"type":"function"
+   }
+  ]
+,"userDoc":{"methods":{}}
+,"developerDoc":{"methods":{}}
+}
