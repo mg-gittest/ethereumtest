@@ -12,10 +12,11 @@ function checkBalance(i) {
 }
   
 function checkAllBalances() {
-var i = 0;
-for(i=0; i< eth.accounts.length; ++i) {
-     checkBalance(i) 
-   }
+  var i = 0;
+  for(i=0; i< eth.accounts.length; ++i) {
+       checkBalance(i) 
+     }
+  return i;
 };
 
 function xfr( src, dst, amt) {
